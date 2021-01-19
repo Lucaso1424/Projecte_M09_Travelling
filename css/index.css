@@ -1,4 +1,6 @@
-body {margin:0}
+body {
+  margin: 0
+}
 
 .icon-bar {
   width: 70px;
@@ -34,13 +36,13 @@ body {margin:0}
   background-color: #828282;
 }
 
-#main{
+#main {
   height: 100%;
   width: 100%;
-background-image: url("/images/FondoDifuminado.png");
+  background-image: url("/images/FondoDifuminado.png");
 }
 
-.container{
+.container {
   height: 350px;
   width: 600px;
   background-color: white;
