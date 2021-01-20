@@ -49,10 +49,11 @@ body {
   border: solid 1px black;
   margin-right: 48%;
 }
-/* 
+
 footer {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
   height: 100px;
-  background-color: rgb(255, 94, 0);
-} */
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 78, 8, 0.966);
+}
