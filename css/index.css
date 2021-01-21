@@ -1,5 +1,6 @@
-body {
-  margin: 0
+.body {
+  margin: 0;
+  height: 610px;
 }
 
 .icon-bar {
@@ -42,13 +43,61 @@ body {
   background-image: url("/images/FondoDifuminado.png");
 }
 
-.container {
+
+.container{
   height: 350px;
   width: 600px;
   background-color: white;
   border: solid 1px black;
   margin-right: 48%;
+  padding-left: 3%;
 }
+
+.container h1{
+  margin-top: 5%;
+  }
+  
+  .busqueda{
+    height: 50px;
+    width: 30px;
+  }
+  
+  .container-sm{
+  
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+  
+  
+  
+  .container-sm input{
+    background-color: #eee;
+  }
+  
+  .container-sm button{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #eee;
+    border: none;
+    text-align: center;
+  }
+  
+  .container-sm img{
+    height: 15px;
+    width: 25px;
+  }
+  
+  .container-sm i{
+    height: 25px;
+    width: 25px;
+  }
+  
+  #btn{
+    margin-top: 25%;
+    width: 90%;
+  }
+
 
 footer {
   position: fixed;
@@ -57,3 +106,5 @@ footer {
   width: 100%;
   background-color: rgba(255, 78, 8, 0.966);
 }
+
+
