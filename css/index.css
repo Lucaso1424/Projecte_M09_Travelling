@@ -1,6 +1,6 @@
 .body {
   margin: 0;
-  height: 610px;
+  height: 700px;
 }
 
 .icon-bar {
@@ -30,7 +30,6 @@
 
 .icon-bar a:hover {
   background-color: #828282;
-
 }
 
 .active {
@@ -40,9 +39,9 @@
 #main {
   height: 100%;
   width: 100%;
-  background-image: url("/images/FondoDifuminado.png");
+  background-image: url("/images/FondoDifuminado.png"); 
+  background-repeat: no-repeat;
 }
-
 
 .container{
   height: 350px;
@@ -53,28 +52,39 @@
   padding-left: 3%;
 }
 
+.container_registro{
+  height: 620px;
+  width: 680px;
+  margin: auto;
+  padding-right: 70px;
+  background-color: white;
+  border: solid 1px black;
+  margin-right: 48%;
+  padding-left: 3%;
+}
+
 .container h1{
   margin-top: 5%;
   }
-  
+
   .busqueda{
     height: 50px;
     width: 30px;
   }
-  
+
   .container-sm{
-  
+
     display:flex;
     flex-direction:row;
     align-items:center;
   }
-  
-  
-  
+
+
+
   .container-sm input{
     background-color: #eee;
   }
-  
+
   .container-sm button{
     margin-left: 5px;
     margin-right: 5px;
@@ -82,17 +92,17 @@
     border: none;
     text-align: center;
   }
-  
+
   .container-sm img{
     height: 15px;
     width: 25px;
   }
-  
+
   .container-sm i{
     height: 25px;
     width: 25px;
   }
-  
+
   #btn{
     margin-top: 25%;
     width: 90%;
@@ -106,5 +116,3 @@ footer {
   width: 100%;
   background-color: rgba(255, 78, 8, 0.966);
 }
-
-
