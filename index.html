@@ -1,47 +1,68 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- Link CSS -->
-  <link href="/css/index.css" rel="stylesheet" type="text/css">
-  <!-- Favicon-->
-  <link rel="icon" type="image/png" href="images/logo_travelling.png">
-  <title>Travelling</title>
-</head>
-
-<body>
-  <div class="page-header">
-    <img src="images/logo_travelling.png" class="img-fluid" height="150px" width="150px">
-  </div>
-
-  <div class="vertical-menu" id="menu">
-    <div class="icon-bar">
-      <a class="active"><i class="fa fa-bars"></i></a>
-      <a href="index.html"><i class="fa fa-globe"></i> Inici</a>
-      <a href="registro.html"><i class="fa fa-address-card"></i> Registro</a>
-      <a href="contacto.html"><i class="fa fa-envelope"></i> Contacto</a>
-      <a href="#" href="#"><i class="fa fa-plane"></i> Sevilla</a>
-      <a href="#"><i class="fa fa-bed"></i> Madrid</a>
-      <a href="#"><i class="fa fa-car"></i> Barcelona</a>
-      <a href="#"><i class="fa fa-bus"></i> Zaragoza</a>
-      <a href="#"><i class="fa fa-train"></i> Galicia</a>
+    <link href="/css/index.css" rel="stylesheet" type="text/css">
+    <title>Travelling</title>
+  </head>
+  <body>
+    <div class="body">
+    <div class="page-header">
+      <img src="images/logo_travelling.png"  class="img-fluid" height="150px" width="150px">
     </div>
-  </div>
+    <div class="vertical-menu" id="menu">
+        <div class="icon-bar">
+          <!--            
+            <a class="active"><i class="fa fa-bars"></i></a>  
+          -->
 
-  <div id="main">
-    <div class="container">
-      <h1>Buscador de Viajes: </h1>
+            <a href="index.html"><i class="fa fa-globe"></i> Inici</a>
+            <a href="registro.html"><i class="fa fa-address-card"></i> Registro</a>
+            <a href="contacto.html"><i class="fa fa-envelope"></i> Contacto</a>
+            <a href="#" href="#"><i class="fa fa-plane"></i> Sevilla</a>
+            <a href="#"><i class="fa fa-bed"></i> Madrid</a>
+            <a href="#"><i class="fa fa-car"></i> Barcelona</a>
+            <a href="#"><i class="fa fa-bus"></i> Zaragoza</a>
+            <a href="#"><i class="fa fa-train"></i> Galicia</a>
+        </div>
+    </div>
+    
+    <div id="main"> 
+      <div class="container">
+        <h1>Buscador de Viajes: </h1>
+        <div>
+          <select>
+            <option>Ida y vuelta</option>
+            <option>Solo ida</option>
+            <option>Solo vuelta</option>
+          </select>
+          <select>
+            <option>1 Adulto</option>
+            <option>1 Estudiante</option>
+            <option>1 Niño</option>
+          </select>
+        </div>
+        <div>
+        <div class="container-sm">
+            <input placeholder="Buscar" class="form-text" type="text" size="10px" maxlength="128"/>
+            <button><i class="fa fa-retweet"></i></button>
+            <input placeholder="Buscar" class="form-text" type="text" size="15" maxlength="128"/>
+        </div>
+        <span class="input-group-btn">
+            <button type="submit" class="btn btn-primary" id="btn"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>Buscar</button>
+        </span>
 
 
+        </div>
+      </div>
     </div>
   </div>
 
@@ -50,8 +71,7 @@
       <h3>Nuestra empresa</h3>
     </div>
   </footer>
-
-</body>
-
-
+  </body>
 </html>
+
+
