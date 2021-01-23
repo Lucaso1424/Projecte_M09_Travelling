@@ -61,7 +61,7 @@ body {
 }
 
 #main {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
 }
 
@@ -76,30 +76,25 @@ body {
 }
 
 .container_registro {
-  height: 1200px;
   width: 680px;
   margin: auto;
-  /* background-color: white; */
-  /* border: solid 1px black; */
-  margin-right: 46%;
+  margin-right: 44%;
+  margin-top: 170px;
   padding-left: 3%;
   font-family: "Forza Black";
 }
 
 .formulario_derecha {
-  height: 1200px;
   width: 680px;
   position: absolute;
   right: 300px;
-  top: 240px;
+  top: 320px;
 }
 
 .submit_perfil {
-  height: 1200px;
-  width: 680px;
   position: absolute;
   left: 1550px;
-  top: 230px;
+  top: 290px;
 }
 
 .container h1 {
@@ -111,7 +106,7 @@ body {
   font-family: "Forza Black";
   text-align: center;
   position: absolute;
-  right: 870px;
+  right: 870px; 
 }
 
 .container select {
@@ -164,7 +159,6 @@ body {
   font-size: 16px;
 }
 
-
 footer {
   position: fixed;
   height: 100px;
@@ -185,13 +179,11 @@ footer {
 #divprincipalformulario {
   font-family: 'Quicksand';
   font-weight: bold;
-  height: 900px;
 }
 
-#boton_registro {
-  height: 1200px;
-  width: 680px;
+#boton_registro { 
+  width: 800px;
   position: absolute;
-  right: 500px;
-  top: 500px;
+  right: 460px;
+  top: 550px;
 }
