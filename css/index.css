@@ -169,6 +169,21 @@ body {
   right: 1px;
 }
 
+#empresa_footer {
+  height: 99px;
+  width: 170px;
+  border-style: solid;
+  position: absolute;
+  top: 1px;
+  right: 330px;
+}
+
+#afiliados_footer {
+  position: absolute;
+  top: -20px;
+  right: 1000px;
+}
+
 #btn {
   margin-top: 0%;
   width: 100%;
