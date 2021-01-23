@@ -12,6 +12,15 @@
   src: url(tipografias/Quicksand-VariableFont_wght.ttf)
 }
 
+body{
+  background-image: url("/images/FondoDifuminado.png"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page-header{
+  background-color: white;
+}
 
 .body {
   margin: 0;
@@ -54,9 +63,8 @@
 #main {
   height: 100%;
   width: 100%;
-  background-image: url("/images/FondoDifuminado.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+
+
 }
 
 .container {
@@ -66,7 +74,7 @@
   border: solid 1px black;
   margin-right: 50%;
   padding-right: 1%;
-  font-family: "Forza Black";
+  margin-top: 4%;
 }
 
 .container_registro {
@@ -96,35 +104,38 @@
   outline: 0px;
 }
 
-.busqueda {
-  height: 50px;
-  width: 30px;
-}
+  .busqueda{
+    height: 50px;
+    width: 30px;
+  }
 
-.container-sm {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  .container-sm{
 
-.container-sm input {
-  background-color: #eee;
-  margin-bottom: 5px;
-  margin-left: 3px;
-}
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
 
-.container-sm button {
-  margin-left: 5px;
-  margin-bottom: 5px;
-  background-color: #eee;
-  border: none;
-  text-align: center;
-}
 
-.container-sm img {
-  height: 15px;
-  width: 25px;
-}
+
+  .container-sm input{
+    background-color: #eee;
+    margin-bottom: 5px;
+  }
+
+  .container-sm button{
+    margin-left: 5px;
+   
+    margin-bottom: 5px;
+    background-color: #eee;
+    border: none;
+    text-align: center;
+  }
+
+  .container-sm img{
+    height: 15px;
+    width: 25px;
+  }
 
 .container-sm i {
   height: 25px;
@@ -153,6 +164,11 @@ footer {
 #icono {
   border: 2px solid #eee;
   border-radius: 4px;
+  margin-right: 1%;
+}
+
+#main :first-child {
+
 }
 
 #divprincipalformulario form {
