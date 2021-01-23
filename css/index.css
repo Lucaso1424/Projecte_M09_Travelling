@@ -107,6 +107,7 @@ body {
   text-align: center;
   position: absolute;
   right: 870px; 
+  top: 180px;
 }
 
 .container select {
@@ -150,6 +151,47 @@ body {
   width: 25px;
 }
 
+#contacto_footer {
+  height: 99px;
+  width: 170px;
+  border-style: solid;
+  position: absolute;
+  top: 1px;
+  right: 330px;
+}
+
+.redes_footer {
+  height: 99px;
+  width: 318px;
+  border-style: solid;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+#empresa_footer {
+  position: absolute;
+  left: 50px;
+}
+
+#texto_empresa1 {
+  position: absolute;
+  left: 70px;
+  bottom: -10px;
+}
+
+#texto_empresa2 {
+  position: absolute;
+  left: 260px;
+  bottom: -9px;
+}
+
+#afiliados_footer {
+  position: absolute;
+  top: -20px;
+  right: 1000px;
+}
+
 #btn {
   margin-top: 0%;
   width: 100%;
@@ -160,6 +202,7 @@ body {
 }
 
 footer {
+  font-family: 'Quicksand';
   position: fixed;
   height: 100px;
   bottom: 0;
@@ -186,4 +229,9 @@ footer {
   position: absolute;
   right: 460px;
   top: 550px;
+}
+
+#posContact {
+  position: absolute;
+  bottom: -15px;
 }
