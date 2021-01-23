@@ -170,12 +170,20 @@ body {
 }
 
 #empresa_footer {
-  height: 99px;
-  width: 170px;
-  border-style: solid;
   position: absolute;
-  top: 1px;
-  right: 330px;
+  left: 50px;
+}
+
+#texto_empresa1 {
+  position: absolute;
+  left: 70px;
+  bottom: -10px;
+}
+
+#texto_empresa2 {
+  position: absolute;
+  left: 260px;
+  bottom: -9px;
 }
 
 #afiliados_footer {
@@ -221,4 +229,9 @@ footer {
   position: absolute;
   right: 460px;
   top: 550px;
+}
+
+#posContact {
+  position: absolute;
+  bottom: -15px;
 }
