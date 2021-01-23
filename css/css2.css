@@ -76,6 +76,7 @@ background-color: white;
   }
 
   .container-sm{
+    
     padding-left: 10%;
     padding-top: 2%;
   }
@@ -83,6 +84,12 @@ background-color: white;
 #ubi{
   display: inline-block;
   margin:auto;
-  margin-bottom: 1%;
+  margin-bottom: 15px;
 
+}
+
+.container-md{
+
+  display: flex;
+  flex-direction: row;
 }
