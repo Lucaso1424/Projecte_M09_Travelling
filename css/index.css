@@ -15,6 +15,15 @@
 
 }
 
+body{
+  background-image: url("/images/FondoDifuminado.png"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page-header{
+  background-color: white;
+}
 
 .body {
   margin: 0;
@@ -57,9 +66,7 @@
 #main {
   height: 100%;
   width: 100%;
-  background-image: url("/images/FondoDifuminado.png"); 
-  background-repeat: no-repeat;
-  background-size: 100%;
+
 
 }
 
@@ -71,6 +78,7 @@
   border: solid 1px black;
   margin-right: 50%;
   padding-right: 1%;
+  margin-top: 4%;
 }
 
 .container_registro{
@@ -97,10 +105,6 @@
   outline:0px;
 }
 
-
-
-
-
   .busqueda{
     height: 50px;
     width: 30px;
@@ -118,7 +122,6 @@
   .container-sm input{
     background-color: #eee;
     margin-bottom: 5px;
-    margin-left: 3px;
   }
 
   .container-sm button{
@@ -162,4 +165,9 @@ footer {
 #icono{
   border: 2px solid #eee;
   border-radius: 4px;
+  margin-right: 1%;
+}
+
+#main :first-child {
+
 }
