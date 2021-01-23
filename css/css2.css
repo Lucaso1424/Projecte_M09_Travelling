@@ -1,7 +1,20 @@
+@font-face {
+  font-family: 'Forza Black';
+  font-style: normal;
+  font-weight: normal;
+  src: url(tipografias/Forza-Black.ttf)
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: normal;
+  src: url(tipografias/Quicksand-VariableFont_wght.ttf)
+}
+
+
 body {
 background-color: white;
-
-
 }
 
 .body {
@@ -92,4 +105,59 @@ background-color: white;
 
   display: flex;
   flex-direction: row;
+}
+
+#contacto_footer {
+  height: 99px;
+  width: 170px;
+  border-style: solid;
+  position: absolute;
+  top: 1px;
+  right: 330px;
+}
+
+.redes_footer {
+  height: 99px;
+  width: 318px;
+  border-style: solid;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+#empresa_footer {
+  position: absolute;
+  left: 50px;
+}
+
+#texto_empresa1 {
+  position: absolute;
+  left: 70px;
+  bottom: -10px;
+}
+
+#texto_empresa2 {
+  position: absolute;
+  left: 260px;
+  bottom: -9px;
+}
+
+#afiliados_footer {
+  position: absolute;
+  top: -20px;
+  right: 1000px;
+}
+
+footer {
+  font-family: 'Quicksand';
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  /* background-color: rgba(255, 78, 8, 0.966); */
+  background-color: #FF8000;
+}
+#posContact {
+  position: absolute;
+  bottom: -15px;
 }
