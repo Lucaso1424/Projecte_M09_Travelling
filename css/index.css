@@ -1,10 +1,8 @@
-
 @font-face {
   font-family: 'Forza Black';
   font-style: normal;
   font-weight: normal;
   src: url(tipografias/Forza-Black.ttf)
-
 }
 
 @font-face {
@@ -12,7 +10,6 @@
   font-style: normal;
   font-weight: normal;
   src: url(tipografias/Quicksand-VariableFont_wght.ttf)
-
 }
 
 
@@ -57,97 +54,91 @@
 #main {
   height: 100%;
   width: 100%;
-  background-image: url("/images/FondoDifuminado.png"); 
+  background-image: url("/images/FondoDifuminado.png");
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
 
-.container{
-  
+.container {
   height: 280px;
   width: 560px;
   background-color: white;
   border: solid 1px black;
   margin-right: 50%;
   padding-right: 1%;
+  font-family: "Forza Black";
 }
 
-.container_registro{
+.container_registro {
   height: 620px;
   width: 680px;
   margin: auto;
-  padding-right: 70px;
-  background-color: white;
-  border: solid 1px black;
+  /* background-color: white; */
+  /* border: solid 1px black; */
   margin-right: 48%;
   padding-left: 3%;
+  font-family: "Forza Black";
 }
 
-.container h1{
+/* .formulario_derecha {
+  margin-left: 600px;
+} */
+
+.container h1 {
   font-family: "Forza Black";
   margin-top: 7%;
-  }
+}
 
-
-.container select{
+.container select {
   margin-left: 5px;
   margin-bottom: 5px;
   border: 0cm;
-  outline:0px;
+  outline: 0px;
 }
 
+.busqueda {
+  height: 50px;
+  width: 30px;
+}
 
+.container-sm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+.container-sm input {
+  background-color: #eee;
+  margin-bottom: 5px;
+  margin-left: 3px;
+}
 
+.container-sm button {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background-color: #eee;
+  border: none;
+  text-align: center;
+}
 
-  .busqueda{
-    height: 50px;
-    width: 30px;
-  }
+.container-sm img {
+  height: 15px;
+  width: 25px;
+}
 
-  .container-sm{
+.container-sm i {
+  height: 25px;
+  width: 25px;
+}
 
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-  }
-
-
-
-  .container-sm input{
-    background-color: #eee;
-    margin-bottom: 5px;
-    margin-left: 3px;
-  }
-
-  .container-sm button{
-    margin-left: 5px;
-   
-    margin-bottom: 5px;
-    background-color: #eee;
-    border: none;
-    text-align: center;
-  }
-
-  .container-sm img{
-    height: 15px;
-    width: 25px;
-  }
-
-  .container-sm i{
-    height: 25px;
-    width: 25px;
-  }
-
-  #btn{
-    margin-top: 0%;
-    width: 100%;
-    background-color: #0084FF;
-    color: black;
-    font-family: "Forza Black";
-    font-size: 16px;
-  }
+#btn {
+  margin-top: 0%;
+  width: 100%;
+  background-color: #0084FF;
+  color: black;
+  font-family: "Forza Black";
+  font-size: 16px;
+}
 
 
 footer {
@@ -155,11 +146,16 @@ footer {
   height: 100px;
   bottom: 0;
   width: 100%;
- /* background-color: rgba(255, 78, 8, 0.966); */
- background-color: #FF8000 ;
+  /* background-color: rgba(255, 78, 8, 0.966); */
+  background-color: #FF8000;
 }
 
-#icono{
+#icono {
   border: 2px solid #eee;
   border-radius: 4px;
 }
+
+#divprincipalformulario form {
+  font-family: 'Quicksand';
+  font-weight: bold;
+} 
