@@ -189,7 +189,7 @@ body {
 #afiliados_footer {
   position: absolute;
   top: -20px;
-  right: 1000px;
+  right: 900px;
 }
 
 #btn {
@@ -234,4 +234,24 @@ footer {
 #posContact {
   position: absolute;
   bottom: -15px;
+}
+
+input[type=button] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  width: 60px;
+  height: 60px;
+  background: black;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+#audio{
+  margin-top: 30px;
+  margin-right: 30px;
+  float: right;
 }
