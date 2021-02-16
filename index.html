@@ -13,42 +13,10 @@
   <!-- Link CSS -->
   <link href="/css/index.css" rel="stylesheet" type="text/css">
   <title>Travelling</title>
-
-  <script type="text/javascript">
-    function playPause(){
-       var reproduciendo = true;
-       var pista = document.getElementById('pararmusica');
-       var boton_play_pause = document.getElementById('boton_play_pause');
-       boton_play_pause.onclick = function(){
-          if(reproduciendo){
-             reproduciendo = false;
-             pista.pause();
-             this.value = 'PLAY';
-          }else{
-             reproduciendo = true;
-             pista.play();
-             this.value = 'PAUSE';
-          }
-       }
-    }
-    
-    window.onload = function(){
-       playPause();
-    }
- </script>
   
 </head>
 
 <body>
-  <div id="audio">
-    <audio id="player" src="musica de Fondo para Radio.mp3"></audio>
-    <div>
-      <button onclick="document.getElementById('player').play()">Reproducir</button>
-      <button onclick="document.getElementById('player').pause()">Pausar</button>
-      <button onclick="document.getElementById('player').volume+=0.1">Subir Volumen</button>
-      <button onclick="document.getElementById('player').volume-=0.1">Bajar volumen</button>
-      </div> 
-  </div>
   <div class="body">
 
     <div class="page-header">
@@ -58,7 +26,11 @@
     <div class="vertical-menu" id="menu">
       <div class="icon-bar">
         <a class="active"><i class="fa fa-bars"></i></a>
-        <a href="index.html"><i class="fa fa-globe"></i> Inici</a>
+        <a href="index.html"><i class="fa fa-globe">
+          <audio autoplay>
+            <source src="clickboton.mp3" type="audio/mp3">
+          </audio>
+        </i> Inici</a>
         <a href="registro.html"><i class="fa fa-address-card"></i> Registro</a>
         <a href="contacto.html"><i class="fa fa-envelope"></i> Contacto</a>
         <a href="#" href="#"><i class="fa fa-plane"></i> Sevilla</a>
@@ -127,11 +99,11 @@
     <div class="text-center" id="afiliados_footer">
         <br>
         <h4>Afiliados</h4>
-        <img src="/images/Afiliado2.png" width="60px" height="60px">
-        <img src="/images/Afiliado1.png" width="75px" height="60px">
-        <img src="/images/iberia.png" width="60px" height="60px">
-        <img src="/images/alsa.png" width="60px" height="60px">
-        <img src="/images/vueling.png" width="60px" height="60px">
+        <img src="images/Afiliado2.png" width="60px" height="60px">
+        <img src="images/Afiliado1.png" width="75px" height="60px">
+        <img src="images/iberia.png" width="60px" height="60px">
+        <img src="images/alsa.png" width="60px" height="60px">
+        <img src="images/vueling.png" width="60px" height="60px">
     </div>
     <div id="contacto_footer" class="text-center">
         <h5><strong>CONTACTAR</strong></h5>
@@ -140,16 +112,9 @@
            Donde estamos</p>
     </div>
     <div class="redes_footer">
-        <img src="/images/instagram.png" width="100px" height="100px">
-        <img src="/images/twitter.png" width="100px" height="100px">
-        <img src="/images/facebook.png" width="100px" height="100px">
-    </div>
-
-    <div>
-      <audio autoplay>
-        <source src="sonidoavion.mp3" type="audio/mp3">
-      </audio>
-
+        <img src="images/instagram.png" width="100px" height="100px">
+        <img src="images/twitter.png" width="100px" height="100px">
+        <img src="images/facebook.png" width="100px" height="100px">
     </div>
 </footer>
 </body>
