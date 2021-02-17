@@ -182,3 +182,15 @@ footer {
   left: 320px;
 }
 
+audio {
+  width: 200px;
+  height: 50px;
+}
+
+#audio_footer {
+  height: 99px;
+  width: 470px;
+  position: absolute;
+  top: 30px;
+  right: 330px;
+}
