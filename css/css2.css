@@ -194,3 +194,11 @@ audio {
   top: 30px;
   right: 330px;
 }
+
+#video1 {
+  height: 500;
+  width: 900px;
+  position: absolute;
+  bottom: 160px;
+  right: 500px;
+}
