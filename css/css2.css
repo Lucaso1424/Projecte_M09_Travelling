@@ -79,6 +79,7 @@ body {
   padding-right: 2%;
 }
 
+
 #mail {
   padding-right: 15px;
 }
@@ -201,4 +202,47 @@ audio {
   position: absolute;
   bottom: 160px;
   right: 500px;
+}
+
+
+/*   ANIMACION Y TRANSICION     */
+
+#rectangulo {
+  height: 300px;
+  width:  400px;
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  transition:  2s steps(20);
+  transition-timing-function: ease;
+  margin-bottom: 1%
+}
+
+
+#rectangulo:hover {
+  transform: scale(0.25);
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF8000;
+
+}
+
+.cuadrado{
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  transition:  1s;
+  transition-timing-function: ease;
+
+}
+
+.cuadrado:hover{
+  transform: scaleX(2);
+
 }
