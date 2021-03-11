@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url("/images/FondoDifuminado.png");
+  background-image: url("images/FondoDifuminado.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
